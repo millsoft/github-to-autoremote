@@ -1,0 +1,22 @@
+{
+    "name": "millsoft/github-to-autoremote",
+    "require": {
+        "guzzlehttp/guzzle": "~6.0",
+        "problematik/php-autoremote": "~1.0.2",
+        "vlucas/phpdotenv": "^4.1"
+    },
+    "authors": [
+        {
+            "name": "MilMike",
+            "homepage": "https://www.milmike.com"
+        }
+    ],
+
+    "autoload": {
+        "psr-4": {
+            "Millsoft\\Notifier\\": "src",
+            "Millsoft\\Notifier\\Notifier\\": "src/notifier",
+            "Millsoft\\Notifier\\Hooks\\": "src/hooks"
+        }
+    }
+}
